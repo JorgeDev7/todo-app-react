@@ -222,7 +222,7 @@ function App() {
         </div>
 
         <div className='container px-5 lg:px-52 xl:px-64 2xl:px-80 mx-auto mt-12'>
-          <h2 className='text-center text-dark-grayish-blue'>Drag and drop to reorder list </h2>
+          <h2 className='hidden md:block text-center text-dark-grayish-blue'>Drag and drop to reorder list </h2>
         </div>
       </div>
     </>

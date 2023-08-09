@@ -8,6 +8,8 @@
     }
 }
 
-.todo:hover .close {
-    opacity: 1;
+@media (min-width: 768px) {
+    .todo:hover .close {
+        opacity: 1;
+    }
 }

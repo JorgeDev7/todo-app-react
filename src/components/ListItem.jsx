@@ -83,7 +83,7 @@ const ListItem = ({ darkmode, item, listItems, setListItem }) => {
                 <img
                     src={cross}
                     alt="cross icon"
-                    className={`close cursor-pointer ${darkmode ? 'opacity-0 transition-opacity duration-200' : ''}`}
+                    className={`close cursor-pointer ${darkmode ? 'md:opacity-0 md:transition-opacity duration-200' : ''}`}
                     onClick={openModal}
                 />
             </div>
